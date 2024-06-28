@@ -55,7 +55,7 @@
                   </div>
                   <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                        <div class="top-box">
-                        <p>long established fact that a reader will be </p>
+                        <p>Dapatkan tips & insight kembangkan bisnis bersama kami </p>
                     </div>
                   </div>
                </div>
@@ -66,7 +66,7 @@
                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
                   <div class="full">
                      <div class="center-desk">
-                        <div class="logo"> <a href="index.html"><img src="./lighten/images/logo.jpg" alt="logo"/></a> </div>
+                        <div class="logo"> <a href="home"><img src="./assets/images/logo.png" height="100px" width="100px" alt="logo"/></a> </div>
                      </div>
                   </div>
                </div>
@@ -216,43 +216,43 @@
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                   <div class="service-box">
                      <i><img src="./lighten/icon/service1.png"/></i>
-                     <h3>Fast service</h3>
-                     <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
+                     <h3>Pelayanan Cepat</h3>
+                     <p>Pelayanan ramah dan tercepat untuk inventory </p>
                   </div>
                </div>
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                   <div class="service-box">
                      <i><img src="./lighten/icon/service2.png"/></i>
-                     <h3>Secure payments</h3>
-                     <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
+                     <h3>Pembayaran Aman</h3>
+                     <p>Pembayaran dan uang terjaga dengan kami </p>
                   </div>
                </div>
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                   <div class="service-box">
                      <i><img src="./lighten/icon/service3.png"/></i>
-                     <h3>Expert team</h3>
-                     <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
+                     <h3>Team Berpengalaman</h3>
+                     <p>Memiliki tim yang berpengalaman di bidang inventory dan pergudangan </p>
                   </div>
                </div>
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                   <div class="service-box">
                      <i><img src="./lighten/icon/service4.png"/></i>
-                     <h3>Affordable services</h3>
-                     <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
+                     <h3>Pelayanan Baik</h3>
+                     <p>Dengan kami memberikan pelayanan yang memudahkan para customer </p>
                   </div>
                </div>
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                   <div class="service-box">
                      <i><img src="./lighten/icon/service5.png"/></i>
-                     <h3>90 Days warranty</h3>
-                     <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
+                     <h3>Garansi 90 hari</h3>
+                     <p>Memiliki garansi untuk barang yang di simpan di website kami </p>
                   </div>
                </div>
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                   <div class="service-box">
                      <i><img src="./lighten/icon/service6.png"/></i>
-                     <h3>Award winning</h3>
-                     <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
+                     <h3>Keuntungan</h3>
+                     <p>Dapatkan keuntungan jika menyimpan barang dikami </p>
                   </div>
                </div>
             </div>
@@ -266,8 +266,8 @@
             <div class="row">
                <div class="col-md-12">
                   <div class="title">
-                     <h2>our <strong class="black">products</strong></h2>
-                     <span>We package the products with best services to make you a happy customer.</span>
+                     <h2>Produk <strong class="black">Kami</strong></h2>
+                     <span>Produk kami yang terbaik dan terjamin keterjagaannya.</span>
                   </div>
                </div>
             </div>
@@ -281,56 +281,56 @@
                   <div class="product-box">
                      <i><img src="./lighten/icon/p1.png"/></i>
                      <h3>Norton Internet Security</h3>
-                     <span>$25.00</span>
+                     <span>Rp.25.000</span>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="product-box">
                      <i><img src="./lighten/icon/p2.png"/></i>
                      <h3>Norton Internet Security</h3>
-                     <span>$25.00</span>
+                     <span>Rp.25.000</span>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="product-box">
                      <i><img src="./lighten/icon/p3.png"/></i>
                      <h3>Norton Internet Security</h3>
-                     <span>$25.00</span>
+                     <span>Rp.25.000</span>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="product-box">
                      <i><img src="./lighten/icon/p4.png"/></i>
                      <h3>Norton Internet Security</h3>
-                     <span>$25.00</span>
+                     <span>Rp.25.000</span>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="product-box">
                      <i><img src="./lighten/icon/p5.png"/></i>
                      <h3>Norton Internet Security</h3>
-                     <span>$25.00</span>
+                     <span>Rp.25.000</span>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="product-box">
                      <i><img src="./lighten/icon/p2.png"/></i>
                      <h3>Norton Internet Security</h3>
-                     <span>$25.00</span>
+                     <span>Rp.25.000</span>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="product-box">
                      <i><img src="./lighten/icon/p6.png"/></i>
                      <h3>Norton Internet Security</h3>
-                     <span>$25.00</span>
+                     <span>Rp.25.000</span>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="product-box">
                      <i><img src="./lighten/icon/p7.png"/></i>
                      <h3>Norton Internet Security</h3>
-                     <span>$25.00</span>
+                     <span>Rp.25.000</span>
                   </div>
                </div>
               
@@ -345,7 +345,7 @@
                <div class="row">
                   <div class="col-md-12">
                      <div class="title">
-                        <h3>What Clients Say?</h3>
+                        <h3>Apa yang mereka bilang?</h3>
                      </div>
                   </div>
                </div>
@@ -408,14 +408,14 @@
             <div class="row">
                <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
                   <div class="yellow-box">
-                     <h3>REQUEST A FREE QUOTE<i><img src="icon/calll.png"/></i></h3>
+                     <h3>Permintaan<i><img src="icon/calll.png"/></i></h3>
                      
-                     <p>Get answers and advice from people you want it from.</p>
+                     <p>Dapatkan penawaran di website ini dengan menjelajah lebih jauh.</p>
                   </div>
                </div>
                 <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
                   <div class="yellow-box">
-                     <a href="#">Get  Quote</a>
+                     <a href="#">Dapatkan permintaan</a>
                   </div>
                </div>
             </div>
@@ -452,45 +452,45 @@
             <div class="row">
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="contact">
-                     <h3>conatct us</h3>
-                     <span>123 Second Street Fifth Avenue,<br>
-                       Manhattan, New York<br>
-                        +987 654 3210</span>
+                     <h3>kontak kami</h3>
+                     <span>jl kembangan,<br>
+                       bekasi, jawa barat<br>
+                        +628123456789</span>
                   </div>
                </div>
                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="contact">
-                     <h3>ADDITIONAL LINKS</h3>
+                     <h3>Link alternatif</h3>
                      <ul class="lik">
-                         <li> <a href="#">About us</a></li>
-                         <li> <a href="#">Terms and conditions</a></li>
-                         <li> <a href="#">Privacy policy</a></li>
-                         <li> <a href="#">News</a></li>
-                          <li> <a href="#">Contact us</a></li>
+                         <li> <a href="#">Tentang kami</a></li>
+                         <li> <a href="#">Kebijakan dan ketentuan</a></li>
+                         <li> <a href="#">Privasi dan Kejagaan</a></li>
+                         <li> <a href="#">Berita</a></li>
+                          <li> <a href="#">Kontak kami</a></li>
                      </ul>
                   </div>
                </div>
                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="contact">
-                     <h3>service</h3>
+                     <h3>pelayanan</h3>
                       <ul class="lik">
-                    <li> <a href="#"> Data recovery</a></li>
-                         <li> <a href="#">Computer repair</a></li>
-                         <li> <a href="#">Mobile service</a></li>
-                         <li> <a href="#">Network solutions</a></li>
-                          <li> <a href="#">Technical support</a></li>
+                    <li> <a href="#"> Data Kembali</a></li>
+                         <li> <a href="#">Perbaikan Komputer</a></li>
+                         <li> <a href="#">Perbaikan handphone</a></li>
+                         <li> <a href="#">Perbaikan jaringan dan pemasangan</a></li>
+                          <li> <a href="#">Teknik support</a></li>
                   </div>
                </div>
                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="contact">
-                     <h3>About lighten</h3>
-                     <span>Tincidunt elit magnis nulla facilisis. Dolor Sapien nunc amet ultrices, </span>
+                     <h3>Tentang Website ini</h3>
+                     <span>Dengan adanya website ini memudahkan para pelanggan untuk menyimmpan barang dan mendapatkan barang secara aman dan terjamin, </span>
                   </div>
                </div>
             </div>
          </div>
             <div class="copyright">
-               <p>Copyright 2019 All Right Reserved By <a href="https://html.design/">Free html Templates</a> Distributed By <a href="https://themewagon.com">ThemeWagon </a></p>
+               <p>Copyright 2024 RamzDani </a></p>
             </div>
          
       </div>
