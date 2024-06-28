@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Inventory Management - CI</title>
+  <title>Aplikasi Inventori - AI</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
@@ -22,11 +22,11 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href=""><b>Inventory Management System</b></a>
+    <a href=""><b>Sistem Informasi Inventory</b></a>
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
-    <p class="login-box-msg">Log in to start your session</p>
+    <p class="login-box-msg">Silahkan login terlebih dahulu</p>
 
     <form action="<?php echo base_url('auth/login') ?>" method="post">
       <div class="form-group has-feedback">
@@ -41,13 +41,13 @@
         <div class="col-xs-8">
           <div class="checkbox icheck">
             <label>
-              <input type="checkbox"> Remember Me
+              <input type="checkbox"> Ingat Saya
             </label>
           </div>
         </div>
         <!-- /.col -->
         <div class="col-xs-4">
-          <button type="submit" class="btn btn-success btn-block btn-flat">Log In</button>
+          <button type="submit" class="btn btn-success btn-block btn-flat">Masuk</button>
         </div>
         <!-- /.col -->
       </div>
