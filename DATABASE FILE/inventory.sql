@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 4.6.5.2
+-- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 06, 2021 at 05:54 PM
--- Server version: 5.6.21
--- PHP Version: 5.6.3
+-- Waktu pembuatan: 28 Jun 2024 pada 08.55
+-- Versi server: 10.4.32-MariaDB
+-- Versi PHP: 8.0.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
 SET time_zone = "+00:00";
 
 
@@ -17,23 +18,23 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `inventorymgtci`
+-- Database: `inventory`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `attributes`
+-- Struktur dari tabel `attributes`
 --
 
 CREATE TABLE `attributes` (
   `id` int(11) NOT NULL,
   `name` varchar(255) NOT NULL,
   `active` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
--- Dumping data for table `attributes`
+-- Dumping data untuk tabel `attributes`
 --
 
 INSERT INTO `attributes` (`id`, `name`, `active`) VALUES
@@ -43,17 +44,17 @@ INSERT INTO `attributes` (`id`, `name`, `active`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `attribute_value`
+-- Struktur dari tabel `attribute_value`
 --
 
 CREATE TABLE `attribute_value` (
   `id` int(11) NOT NULL,
   `value` varchar(255) NOT NULL,
   `attribute_parent_id` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
--- Dumping data for table `attribute_value`
+-- Dumping data untuk tabel `attribute_value`
 --
 
 INSERT INTO `attribute_value` (`id`, `value`, `attribute_parent_id`) VALUES
@@ -87,23 +88,23 @@ INSERT INTO `attribute_value` (`id`, `value`, `attribute_parent_id`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `brands`
+-- Struktur dari tabel `brands`
 --
 
 CREATE TABLE `brands` (
   `id` int(11) NOT NULL,
   `name` varchar(255) NOT NULL,
   `active` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
--- Dumping data for table `brands`
+-- Dumping data untuk tabel `brands`
 --
 
 INSERT INTO `brands` (`id`, `name`, `active`) VALUES
 (15, 'Computer', 1),
 (16, 'Clothes', 1),
-(17, 'Smartphone', 1),
+(17, 'Smartphone samsung', 1),
 (19, 'Laptop', 1),
 (20, 'Accessories', 1),
 (21, 'Others', 1);
@@ -111,17 +112,17 @@ INSERT INTO `brands` (`id`, `name`, `active`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `categories`
+-- Struktur dari tabel `categories`
 --
 
 CREATE TABLE `categories` (
   `id` int(11) NOT NULL,
   `name` varchar(255) NOT NULL,
   `active` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
--- Dumping data for table `categories`
+-- Dumping data untuk tabel `categories`
 --
 
 INSERT INTO `categories` (`id`, `name`, `active`) VALUES
@@ -137,7 +138,7 @@ INSERT INTO `categories` (`id`, `name`, `active`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `company`
+-- Struktur dari tabel `company`
 --
 
 CREATE TABLE `company` (
@@ -150,10 +151,10 @@ CREATE TABLE `company` (
   `country` varchar(255) NOT NULL,
   `message` text NOT NULL,
   `currency` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
--- Dumping data for table `company`
+-- Dumping data untuk tabel `company`
 --
 
 INSERT INTO `company` (`id`, `company_name`, `service_charge_value`, `vat_charge_value`, `address`, `phone`, `country`, `message`, `currency`) VALUES
@@ -162,17 +163,17 @@ INSERT INTO `company` (`id`, `company_name`, `service_charge_value`, `vat_charge
 -- --------------------------------------------------------
 
 --
--- Table structure for table `groups`
+-- Struktur dari tabel `groups`
 --
 
 CREATE TABLE `groups` (
   `id` int(11) NOT NULL,
   `group_name` varchar(255) NOT NULL,
   `permission` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
--- Dumping data for table `groups`
+-- Dumping data untuk tabel `groups`
 --
 
 INSERT INTO `groups` (`id`, `group_name`, `permission`) VALUES
@@ -183,7 +184,7 @@ INSERT INTO `groups` (`id`, `group_name`, `permission`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `orders`
+-- Struktur dari tabel `orders`
 --
 
 CREATE TABLE `orders` (
@@ -202,10 +203,10 @@ CREATE TABLE `orders` (
   `discount` varchar(255) NOT NULL,
   `paid_status` int(11) NOT NULL,
   `user_id` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
--- Dumping data for table `orders`
+-- Dumping data untuk tabel `orders`
 --
 
 INSERT INTO `orders` (`id`, `bill_no`, `customer_name`, `customer_address`, `customer_phone`, `date_time`, `gross_amount`, `service_charge_rate`, `service_charge`, `vat_charge_rate`, `vat_charge`, `net_amount`, `discount`, `paid_status`, `user_id`) VALUES
@@ -220,7 +221,7 @@ INSERT INTO `orders` (`id`, `bill_no`, `customer_name`, `customer_address`, `cus
 -- --------------------------------------------------------
 
 --
--- Table structure for table `orders_item`
+-- Struktur dari tabel `orders_item`
 --
 
 CREATE TABLE `orders_item` (
@@ -230,10 +231,10 @@ CREATE TABLE `orders_item` (
   `qty` varchar(255) NOT NULL,
   `rate` varchar(255) NOT NULL,
   `amount` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
--- Dumping data for table `orders_item`
+-- Dumping data untuk tabel `orders_item`
 --
 
 INSERT INTO `orders_item` (`id`, `order_id`, `product_id`, `qty`, `rate`, `amount`) VALUES
@@ -253,7 +254,7 @@ INSERT INTO `orders_item` (`id`, `order_id`, `product_id`, `qty`, `rate`, `amoun
 -- --------------------------------------------------------
 
 --
--- Table structure for table `products`
+-- Struktur dari tabel `products`
 --
 
 CREATE TABLE `products` (
@@ -264,15 +265,15 @@ CREATE TABLE `products` (
   `qty` varchar(255) NOT NULL,
   `image` text NOT NULL,
   `description` text NOT NULL,
-  `attribute_value_id` text,
+  `attribute_value_id` text DEFAULT NULL,
   `brand_id` text NOT NULL,
   `category_id` text NOT NULL,
   `store_id` int(11) NOT NULL,
   `availability` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
--- Dumping data for table `products`
+-- Dumping data untuk tabel `products`
 --
 
 INSERT INTO `products` (`id`, `name`, `sku`, `price`, `qty`, `image`, `description`, `attribute_value_id`, `brand_id`, `category_id`, `store_id`, `availability`) VALUES
@@ -289,17 +290,17 @@ INSERT INTO `products` (`id`, `name`, `sku`, `price`, `qty`, `image`, `descripti
 -- --------------------------------------------------------
 
 --
--- Table structure for table `stores`
+-- Struktur dari tabel `stores`
 --
 
 CREATE TABLE `stores` (
   `id` int(11) NOT NULL,
   `name` varchar(255) NOT NULL,
   `active` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
--- Dumping data for table `stores`
+-- Dumping data untuk tabel `stores`
 --
 
 INSERT INTO `stores` (`id`, `name`, `active`) VALUES
@@ -309,7 +310,7 @@ INSERT INTO `stores` (`id`, `name`, `active`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `users`
+-- Struktur dari tabel `users`
 --
 
 CREATE TABLE `users` (
@@ -321,10 +322,10 @@ CREATE TABLE `users` (
   `lastname` varchar(255) NOT NULL,
   `phone` varchar(255) NOT NULL,
   `gender` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
--- Dumping data for table `users`
+-- Dumping data untuk tabel `users`
 --
 
 INSERT INTO `users` (`id`, `username`, `password`, `email`, `firstname`, `lastname`, `phone`, `gender`) VALUES
@@ -334,17 +335,17 @@ INSERT INTO `users` (`id`, `username`, `password`, `email`, `firstname`, `lastna
 -- --------------------------------------------------------
 
 --
--- Table structure for table `user_group`
+-- Struktur dari tabel `user_group`
 --
 
 CREATE TABLE `user_group` (
   `id` int(11) NOT NULL,
   `user_id` int(11) NOT NULL,
   `group_id` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
--- Dumping data for table `user_group`
+-- Dumping data untuk tabel `user_group`
 --
 
 INSERT INTO `user_group` (`id`, `user_id`, `group_id`) VALUES
@@ -361,141 +362,154 @@ INSERT INTO `user_group` (`id`, `user_id`, `group_id`) VALUES
 --
 
 --
--- Indexes for table `attributes`
+-- Indeks untuk tabel `attributes`
 --
 ALTER TABLE `attributes`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `attribute_value`
+-- Indeks untuk tabel `attribute_value`
 --
 ALTER TABLE `attribute_value`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `brands`
+-- Indeks untuk tabel `brands`
 --
 ALTER TABLE `brands`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `categories`
+-- Indeks untuk tabel `categories`
 --
 ALTER TABLE `categories`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `company`
+-- Indeks untuk tabel `company`
 --
 ALTER TABLE `company`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `groups`
+-- Indeks untuk tabel `groups`
 --
 ALTER TABLE `groups`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `orders`
+-- Indeks untuk tabel `orders`
 --
 ALTER TABLE `orders`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `orders_item`
+-- Indeks untuk tabel `orders_item`
 --
 ALTER TABLE `orders_item`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `products`
+-- Indeks untuk tabel `products`
 --
 ALTER TABLE `products`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `stores`
+-- Indeks untuk tabel `stores`
 --
 ALTER TABLE `stores`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `users`
+-- Indeks untuk tabel `users`
 --
 ALTER TABLE `users`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `user_group`
+-- Indeks untuk tabel `user_group`
 --
 ALTER TABLE `user_group`
   ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT untuk tabel yang dibuang
 --
 
 --
--- AUTO_INCREMENT for table `attributes`
+-- AUTO_INCREMENT untuk tabel `attributes`
 --
 ALTER TABLE `attributes`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
 --
--- AUTO_INCREMENT for table `attribute_value`
+-- AUTO_INCREMENT untuk tabel `attribute_value`
 --
 ALTER TABLE `attribute_value`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
+
 --
--- AUTO_INCREMENT for table `brands`
+-- AUTO_INCREMENT untuk tabel `brands`
 --
 ALTER TABLE `brands`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+
 --
--- AUTO_INCREMENT for table `categories`
+-- AUTO_INCREMENT untuk tabel `categories`
 --
 ALTER TABLE `categories`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+
 --
--- AUTO_INCREMENT for table `company`
+-- AUTO_INCREMENT untuk tabel `company`
 --
 ALTER TABLE `company`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
 --
--- AUTO_INCREMENT for table `groups`
+-- AUTO_INCREMENT untuk tabel `groups`
 --
 ALTER TABLE `groups`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
 --
--- AUTO_INCREMENT for table `orders`
+-- AUTO_INCREMENT untuk tabel `orders`
 --
 ALTER TABLE `orders`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+
 --
--- AUTO_INCREMENT for table `orders_item`
+-- AUTO_INCREMENT untuk tabel `orders_item`
 --
 ALTER TABLE `orders_item`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
+
 --
--- AUTO_INCREMENT for table `products`
+-- AUTO_INCREMENT untuk tabel `products`
 --
 ALTER TABLE `products`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+
 --
--- AUTO_INCREMENT for table `stores`
+-- AUTO_INCREMENT untuk tabel `stores`
 --
 ALTER TABLE `stores`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
 --
--- AUTO_INCREMENT for table `users`
+-- AUTO_INCREMENT untuk tabel `users`
 --
 ALTER TABLE `users`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+
 --
--- AUTO_INCREMENT for table `user_group`
+-- AUTO_INCREMENT untuk tabel `user_group`
 --
 ALTER TABLE `user_group`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+COMMIT;
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
