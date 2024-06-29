@@ -8,20 +8,20 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>lighten</title>
+      <title>InventoryShop</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
       <!-- bootstrap css -->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="./lighten/css/bootstrap.min.css">
       <!-- style css -->
-      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="./lighten/css/style.css">
       <!-- Responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" href="./lighten/css/responsive.css">
       <!-- fevicon -->
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <link rel="icon" href="./lighten/images/search_icon.png" type="./lighten/image/gif" />
       <!-- Scrollbar Custom CSS -->
-      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <link rel="stylesheet" href="./lighten/css/jquery.mCustomScrollbar.min.css">
       <!-- Tweaks for older IEs-->
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
@@ -33,7 +33,7 @@
    <body class="main-layout">
       <!-- loader  -->
       <div class="loader_bg">
-         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+         <div class="loader"><img src="./lighten/images/loading.gif" alt="#" /></div>
       </div>
       <!-- end loader --> 
       <!-- header -->
@@ -66,7 +66,7 @@
                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
                   <div class="full">
                      <div class="center-desk">
-                        <div class="logo"> <a href="index.html"><img src="images/logo.jpg" alt="logo"/></a> </div>
+                        <div class="logo"> <a href="index.html"><img src="./lighten/images/logo.jpg" alt="logo"/></a> </div>
                      </div>
                   </div>
                </div>
@@ -114,7 +114,7 @@
       <div class="row">
          <dir class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
             <div class="about_box">
-               <figure><img src="images/pc_layout.png"/></figure>
+               <figure><img src="./lighten/images/pc_layout.png"/></figure>
             </div>
          </dir>
           <dir class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
@@ -148,28 +148,28 @@
             <div class="row">
                <dir class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="for_box">
-                     <i><img src="icon/1.png"/></i>
+                     <i><img src="./lighten/icon/1.png"/></i>
                      <h3>Data recovery</h3>
                      <p>Perspiciatis eos quos totam cum minima autPerspiciatis eos quos</p>
                   </div>
                </dir>
                <dir class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="for_box">
-                     <i><img src="icon/2.png"/></i>
+                     <i><img src="./lighten/icon/2.png"/></i>
                      <h3>Computer repair</h3>
                      <p>Perspiciatis eos quos totam cum minima autPerspiciatis eos quos</p>
                   </div>
                </dir>
                <dir class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="for_box">
-                     <i><img src="icon/3.png"/></i>
+                     <i><img src="./lighten/icon/3.png"/></i>
                      <h3>Mobile service</h3>
                      <p>Perspiciatis eos quos totam cum minima autPerspiciatis eos quos</p>
                   </div>
                </dir>
                <dir class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="for_box">
-                     <i><img src="icon/4.png"/></i>
+                     <i><img src="./lighten/icon/4.png"/></i>
                      <h3>Network solutions</h3>
                      <p>Perspiciatis eos quos totam cum minima autPerspiciatis eos quos</p>
                   </div>
@@ -197,42 +197,42 @@
             <div class="row">
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                   <div class="service-box">
-                     <i><img src="icon/service1.png"/></i>
+                     <i><img src="./lighten/icon/service1.png"/></i>
                      <h3>Fast service</h3>
                      <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
                   </div>
                </div>
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                   <div class="service-box">
-                     <i><img src="icon/service2.png"/></i>
+                     <i><img src="./lighten/icon/service2.png"/></i>
                      <h3>Secure payments</h3>
                      <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
                   </div>
                </div>
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                   <div class="service-box">
-                     <i><img src="icon/service3.png"/></i>
+                     <i><img src="./lighten/icon/service3.png"/></i>
                      <h3>Expert team</h3>
                      <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
                   </div>
                </div>
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                   <div class="service-box">
-                     <i><img src="icon/service4.png"/></i>
+                     <i><img src="./lighten/icon/service4.png"/></i>
                      <h3>Affordable services</h3>
                      <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
                   </div>
                </div>
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                   <div class="service-box">
-                     <i><img src="icon/service5.png"/></i>
+                     <i><img src="./lighten/icon/service5.png"/></i>
                      <h3>90 Days warranty</h3>
                      <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
                   </div>
                </div>
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                   <div class="service-box">
-                     <i><img src="icon/service6.png"/></i>
+                     <i><img src="./lighten/icon/service6.png"/></i>
                      <h3>Award winning</h3>
                      <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
                   </div>
@@ -309,14 +309,14 @@
       </footr>
       <!-- end footer -->
       <!-- Javascript files--> 
-      <script src="js/jquery.min.js"></script> 
-      <script src="js/popper.min.js"></script> 
-      <script src="js/bootstrap.bundle.min.js"></script> 
-      <script src="js/jquery-3.0.0.min.js"></script> 
-      <script src="js/plugin.js"></script> 
+      <script src="./lighten/js/jquery.min.js"></script> 
+      <script src="./lighten/js/popper.min.js"></script> 
+      <script src="./lighten/js/bootstrap.bundle.min.js"></script> 
+      <script src="./lighten/js/jquery-3.0.0.min.js"></script> 
+      <script src="./lighten/js/plugin.js"></script> 
       <!-- sidebar --> 
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script> 
-      <script src="js/custom.js"></script>
+      <script src="./lighten/js/jquery.mCustomScrollbar.concat.min.js"></script> 
+      <script src="./lighten/js/custom.js"></script>
       <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
       <script>
          $(document).ready(function(){
