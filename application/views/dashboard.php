@@ -28,12 +28,12 @@
               <div class="inner">
                 <h3><?php echo $total_brands ?></h3>
 
-                <h4><b>Total Items</b></h4>
+                <h4><b>Total Barang</b></h4>
               </div>
               <div class="icon">
                 <i class="fa fa-cubes"></i>
               </div>
-              <a href="<?php echo base_url('Controller_Items/') ?>" class="small-box-footer">More Info <i class="fa fa-arrow-circle-right"></i></a>
+              <a href="<?php echo base_url('Controller_Items/') ?>" class="small-box-footer">Lihat Selengkapnya <i class="fa fa-arrow-circle-right"></i></a>
             </div>
           </div>
           <!-- ./col -->
@@ -43,12 +43,12 @@
               <div class="inner">
                 <h3><?php echo $total_category ?></h3>
 
-                <h4><b>Total Category</b></h4>
+                <h4><b>Total Kategori</b></h4>
               </div>
               <div class="icon">
                 <i class="fa fa-th"></i>
               </div>
-              <a href="<?php echo base_url('Controller_Category/') ?>" class="small-box-footer">More Info <i class="fa fa-arrow-circle-right"></i></a>
+              <a href="<?php echo base_url('Controller_Category/') ?>" class="small-box-footer">Lihat <i class="fa fa-arrow-circle-right"></i></a>
             </div>
           </div>
           <!-- ./col -->
@@ -58,12 +58,12 @@
               <div class="inner">
                 <h3><?php echo $total_attribures; ?></h3>
 
-               <h4><b>Total Elements</h4></b>
+               <h4><b>Data Barang Keseluruhan</h4></b>
               </div>
               <div class="icon">
                 <i class="fa fa-files-o"></i>
               </div>
-              <a href="<?php echo base_url('Controller_Element/') ?>" class="small-box-footer">More Info <i class="fa fa-arrow-circle-right"></i></a>
+              <a href="<?php echo base_url('Controller_Element/') ?>" class="small-box-footer">Lihat Selengkapnya <i class="fa fa-arrow-circle-right"></i></a>
             </div>
           </div>
           <!-- ./col -->
@@ -73,12 +73,12 @@
               <div class="inner">
                 <h3><?php $query = $this->db->query('SELECT SUM( net_amount)as total FROM orders WHERE paid_status = 1')->row(); echo floatval($query->total);?></h3>
 
-                <h4><b>Total Sales</b></h4>
+                <h4><b>Total Penjualan</b></h4>
               </div>
               <div class="icon">
                 <i class="fa fa-dollar"></i>
               </div>
-              <a href="<?php echo base_url('Controller_Orders/') ?>" class="small-box-footer">More Info <i class="fa fa-arrow-circle-right"></i></a>
+              <a href="<?php echo base_url('Controller_Orders/') ?>" class="small-box-footer">Lihat Selengkapnya <i class="fa fa-arrow-circle-right"></i></a>
             </div>
           </div>
           <!-- ./col -->
@@ -92,12 +92,12 @@
               <div class="inner">
                 <h3><?php echo $total_products ?></h3>
 
-               <h4><b>Total Products</b></h4>
+               <h4><b>Total Produk</b></h4>
               </div>
               <div class="icon">
                 <i class="fa fa-cube"></i>
               </div>
-              <a href="<?php echo base_url('Controller_Products/') ?>" class="small-box-footer">More Info <i class="fa fa-arrow-circle-right"></i></a>
+              <a href="<?php echo base_url('Controller_Products/') ?>" class="small-box-footer">Lihat Selengkapnya <i class="fa fa-arrow-circle-right"></i></a>
             </div>
           </div>
           <!-- ./col -->
@@ -107,12 +107,12 @@
               <div class="inner">
                 <h3><?php echo $total_paid_orders ?></h3>
 
-               <h4><b>Paid Orders</b></h4>
+               <h4><b>Barang di Bayar</b></h4>
               </div>
               <div class="icon">
                 <i class="fa fa-check"></i>
               </div>
-              <a href="<?php echo base_url('Controller_Orders/') ?>" class="small-box-footer">More Info <i class="fa fa-arrow-circle-right"></i></a>
+              <a href="<?php echo base_url('Controller_Orders/') ?>" class="small-box-footer">Lihat Selengkapnya <i class="fa fa-arrow-circle-right"></i></a>
             </div>
           </div>
           <!-- ./col -->
@@ -122,12 +122,12 @@
               <div class="inner">
                 <h3><?php $query = $this->db->query('SELECT * FROM orders WHERE paid_status = 2'); echo $query->num_rows();?></h3>
 
-                <h4><b>UnPaid Orders</b></h4>
+                <h4><b>Barang Belum di Bayar</b></h4>
               </div>
               <div class="icon">
                 <i class="fa fa-spinner"></i>
               </div>
-              <a href="<?php echo base_url('Controller_Orders/') ?>" class="small-box-footer">More Info <i class="fa fa-arrow-circle-right"></i></a>
+              <a href="<?php echo base_url('Controller_Orders/') ?>" class="small-box-footer">Lihat Selengkapnya <i class="fa fa-arrow-circle-right"></i></a>
             </div>
           </div>
           <!-- ./col -->
@@ -137,12 +137,12 @@
               <div class="inner">
                 <h3><?php echo $total_users; ?></h3>
 
-                <h4><b>Total Members</b></h4>
+                <h4><b>Total Pelanggan</b></h4>
               </div>
               <div class="icon">
                 <i class="fa fa-users"></i>
               </div>
-              <a href="<?php echo base_url('Controller_Members/') ?>" class="small-box-footer">More Info <i class="fa fa-arrow-circle-right"></i></a>
+              <a href="<?php echo base_url('Controller_Members/') ?>" class="small-box-footer">Lihat Selengkapnya <i class="fa fa-arrow-circle-right"></i></a>
             </div>
           </div>
           <!-- ./col -->
@@ -153,12 +153,12 @@
               <div class="inner">
                 <h3><?php echo $total_stores ?></h3>
 
-               <h4><b>Total Warehouse</b></h4>
+               <h4><b>Total Perusahaan</b></h4>
               </div>
               <div class="icon">
                 <i class="fa fa-institution"></i>
               </div>
-              <a href="<?php echo base_url('Controller_Warehouse/') ?>" class="small-box-footer">More Info <i class="fa fa-arrow-circle-right"></i></a>
+              <a href="<?php echo base_url('Controller_Warehouse/') ?>" class="small-box-footer">Lihat Selengkapnya <i class="fa fa-arrow-circle-right"></i></a>
             </div>
           </div>
         </div>

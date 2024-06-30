@@ -16,7 +16,7 @@
           <?php if(in_array('createBrand', $user_permission) || in_array('updateBrand', $user_permission) || in_array('viewBrand', $user_permission) || in_array('deleteBrand', $user_permission)): ?>
             <li id="brandNav">
               <a href="<?php echo base_url('Controller_Items/') ?>">
-                <i class="fa fa-cubes"></i> <span>Items</span>
+                <i class="fa fa-cubes"></i> <span>Barang</span>
               </a>
             </li>
           <?php endif; ?>
@@ -24,7 +24,7 @@
           <?php if(in_array('createCategory', $user_permission) || in_array('updateCategory', $user_permission) || in_array('viewCategory', $user_permission) || in_array('deleteCategory', $user_permission)): ?>
             <li id="categoryNav">
               <a href="<?php echo base_url('Controller_Category/') ?>">
-                <i class="fa fa-th"></i> <span>Category</span>
+                <i class="fa fa-th"></i> <span>Kategori</span>
               </a>
             </li>
           <?php endif; ?>
@@ -32,7 +32,7 @@
           <?php if(in_array('createStore', $user_permission) || in_array('updateStore', $user_permission) || in_array('viewStore', $user_permission) || in_array('deleteStore', $user_permission)): ?>
             <li id="storeNav">
               <a href="<?php echo base_url('Controller_Warehouse/') ?>">
-                <i class="fa fa-institution"></i> <span>Warehouse</span>
+                <i class="fa fa-institution"></i> <span>Gudang</span>
               </a>
             </li>
           <?php endif; ?>
@@ -40,7 +40,7 @@
           <?php if(in_array('createAttribute', $user_permission) || in_array('updateAttribute', $user_permission) || in_array('viewAttribute', $user_permission) || in_array('deleteAttribute', $user_permission)): ?>
           <li id="attributeNav">
             <a href="<?php echo base_url('Controller_Element/') ?>">
-              <i class="fa fa-files-o"></i> <span>Elements</span>
+              <i class="fa fa-files-o"></i> <span>Unsur</span>
             </a>
           </li>
           <?php endif; ?>
@@ -49,7 +49,7 @@
             <li class="treeview" id="mainProductNav">
               <a href="#">
                 <i class="fa fa-cube"></i>
-                <span>Products</span>
+                <span>Produk</span>
                 <span class="pull-right-container">
                   <i class="fa fa-angle-left pull-right"></i>
                 </span>
@@ -90,7 +90,7 @@
             <li class="treeview" id="mainUserNav">
             <a href="#">
               <i class="fa fa-users"></i>
-              <span>Members</span>
+              <span>Pelanggan</span>
               <span class="pull-right-container">
                 <i class="fa fa-angle-left pull-right"></i>
               </span>
@@ -111,7 +111,7 @@
             <li class="treeview" id="mainGroupNav">
               <a href="#">
                 <i class="fa fa-recycle"></i>
-                <span>Permission</span>
+                <span>Izin</span>
                 <span class="pull-right-container">
                   <i class="fa fa-angle-left pull-right"></i>
                 </span>
@@ -137,12 +137,12 @@
 
 
           <?php if(in_array('updateCompany', $user_permission)): ?>
-            <li id="companyNav"><a href="<?php echo base_url('Controller_Company/') ?>"><i class="fa fa-bank"></i> <span>Company</span></a></li>
+            <li id="companyNav"><a href="<?php echo base_url('Controller_Company/') ?>"><i class="fa fa-bank"></i> <span>Perusahaan</span></a></li>
           <?php endif; ?>
 
         <?php endif; ?>
         <!-- user permission info -->
-        <li><a href="<?php echo base_url('auth/logout') ?>"><i class="fa fa-power-off"></i> <span>Logout</span></a></li>
+        <li><a href="<?php echo base_url('auth/logout') ?>"><i class="fa fa-power-off"></i> <span>Keluar</span></a></li>
 
       </ul>
     </section>
