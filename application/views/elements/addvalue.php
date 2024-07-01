@@ -7,13 +7,13 @@
   <!-- Content Header (Page header) -->
   <section class="content-header">
     <h1>
-      Manage Elements
+      Kelola Unsur
      
     </h1>
     <ol class="breadcrumb">
-      <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-      <li class="active"><a href="<?php echo base_url('Controller_Element/') ?>">Elements</a></li>
-      <li class="active">Elements Value</li>
+      <li><a href="#"><i class="fa fa-dashboard"></i> Beranda</a></li>
+      <li class="active"><a href="<?php echo base_url('Controller_Element/') ?>">Unsur</a></li>
+      <li class="active">Isi Unsur</li>
     </ol>
   </section>
 
@@ -44,7 +44,7 @@
         <?php endif; ?>
 
         <?php //if(in_array('createGroup', $user_permission)): ?>
-          <button class="btn btn-primary" data-toggle="modal" data-target="#addModal">Add Value</button>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#addModal">Tambah Isi</button>
           <br /> <br />
         <?php //endif; ?>
 

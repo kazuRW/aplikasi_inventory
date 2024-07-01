@@ -7,12 +7,12 @@
   <!-- Content Header (Page header) -->
   <section class="content-header">
     <h1>
-      Manage Warehouse
+      Kelola Gudang
       
     </h1>
     <ol class="breadcrumb">
-      <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-      <li class="active">Warehouse</li>
+      <li><a href="#"><i class="fa fa-dashboard"></i> Kelola</a></li>
+      <li class="active">Gudang</li>
     </ol>
   </section>
 
@@ -37,7 +37,7 @@
         <?php endif; ?>
 
         <?php if(in_array('createStore', $user_permission)): ?>
-          <button class="btn btn-primary" data-toggle="modal" data-target="#addModal">Add Warehouse</button>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#addModal">Tambah Gudang</button>
           <br /> <br />
         <?php endif; ?>
 
@@ -48,7 +48,7 @@
             <table id="manageTable" class="table table-bordered table-hover table-striped">
               <thead>
               <tr>
-                <th>Warehouse</th>
+                <th>Gudang</th>
                 <th>Status</th>
                 <?php if(in_array('updateStore', $user_permission) || in_array('deleteStore', $user_permission)): ?>
                   <th>Action</th>

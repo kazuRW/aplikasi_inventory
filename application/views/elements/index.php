@@ -7,12 +7,12 @@
   <!-- Content Header (Page header) -->
   <section class="content-header">
     <h1>
-      Manage Elements
+      Kelola Unsur
      
     </h1>
     <ol class="breadcrumb">
-      <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-      <li class="active">Elements</li>
+      <li><a href="#"><i class="fa fa-dashboard"></i> Beranda</a></li>
+      <li class="active">Unsur</li>
     </ol>
   </section>
 
@@ -37,7 +37,7 @@
         <?php endif; ?>
 
         <?php //if(in_array('createGroup', $user_permission)): ?>
-          <button class="btn btn-primary" data-toggle="modal" data-target="#addModal">Add Element</button>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#addModal">Tambah Unsur</button>
           <br /> <br />
         <?php //endif; ?>
 
