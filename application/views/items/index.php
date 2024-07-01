@@ -6,12 +6,12 @@
   <!-- Content Header (Page header) -->
   <section class="content-header">
     <h1>
-      Manage Items
+      Kelola Barang
   
     </h1>
     <ol class="breadcrumb">
-      <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-      <li class="active">Items</li>
+      <li><a href="#"><i class="fa fa-dashboard"></i> Beranda</a></li>
+      <li class="active">Barang</li>
     </ol>
   </section>
 
@@ -36,7 +36,7 @@
         <?php endif; ?>
 
         <?php if(in_array('createBrand', $user_permission)): ?>
-          <button class="btn btn-primary" data-toggle="modal" data-target="#addBrandModal">Add Item</button>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#addBrandModal">Tambah Barang</button>
           <br /> <br />
         <?php endif; ?>
 
@@ -47,10 +47,10 @@
             <table id="manageTable" class="table table-bordered table-hover table-striped">
               <thead>
               <tr>
-                <th>Item</th>
+                <th>Barang</th>
                 <th>Status</th>
                 <?php if(in_array('updateBrand', $user_permission) || in_array('deleteBrand', $user_permission)): ?>
-                  <th>Action</th>
+                  <th>Aksi</th>
                 <?php endif; ?>
               </tr>
               </thead>
@@ -92,8 +92,8 @@
           <div class="form-group">
             <label for="active">Status</label>
             <select class="form-control" id="active" name="active">
-              <option value="1">Active</option>
-              <option value="2">Inactive</option>
+              <option value="1">Aktif</option>
+              <option value="2">Tidak Aktif</option>
             </select>
           </div>
         </div>
@@ -133,8 +133,8 @@
           <div class="form-group">
             <label for="edit_active">Status</label>
             <select class="form-control" id="edit_active" name="edit_active">
-              <option value="1">Active</option>
-              <option value="2">Inactive</option>
+              <option value="1">Aktif</option>
+              <option value="2">Tidak Aktif</option>
             </select>
           </div>
         </div>

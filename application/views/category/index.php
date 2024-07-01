@@ -6,12 +6,12 @@
   <!-- Content Header (Page header) -->
   <section class="content-header">
     <h1>
-      Manage Category
+      Kelola Kategori
       
     </h1>
     <ol class="breadcrumb">
-      <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-      <li class="active">Category</li>
+      <li><a href="#"><i class="fa fa-dashboard"></i> Beranda</a></li>
+      <li class="active">Kategori</li>
     </ol>
   </section>
 
@@ -36,7 +36,7 @@
         <?php endif; ?>
 
         <?php if(in_array('createCategory', $user_permission)): ?>
-          <button class="btn btn-primary" data-toggle="modal" data-target="#addModal">Add Category</button>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#addModal">Tambah Kategori</button>
           <br /> <br />
         <?php endif; ?>
 
@@ -47,10 +47,10 @@
             <table id="manageTable" class="table table-bordered table-hover table-striped">
               <thead>
               <tr>
-                <th>Category</th>
+                <th>Kategori</th>
                 <th>Status</th>
                 <?php if(in_array('updateCategory', $user_permission) || in_array('deleteCategory', $user_permission)): ?>
-                  <th>Action</th>
+                  <th>Aksi</th>
                 <?php endif; ?>
               </tr>
               </thead>
@@ -78,7 +78,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">Add Category</h4>
+        <h4 class="modal-title">Tambah Kategori</h4>
       </div>
 
       <form role="form" action="<?php echo base_url('Controller_Category/create') ?>" method="post" id="createForm">
@@ -86,14 +86,14 @@
         <div class="modal-body">
 
           <div class="form-group">
-            <label for="brand_name">Category Name</label>
+            <label for="brand_name">Nama Kategori</label>
             <input type="text" class="form-control" id="category_name" name="category_name" placeholder="Enter category name" autocomplete="off">
           </div>
           <div class="form-group">
             <label for="active">Status</label>
             <select class="form-control" id="active" name="active">
-              <option value="1">Active</option>
-              <option value="2">Inactive</option>
+              <option value="1">Aktif</option>
+              <option value="2">Tidak Aktif</option>
             </select>
           </div>
         </div>
@@ -133,8 +133,8 @@
           <div class="form-group">
             <label for="edit_active">Status</label>
             <select class="form-control" id="edit_active" name="edit_active">
-              <option value="1">Active</option>
-              <option value="2">Inactive</option>
+              <option value="1">Aktif</option>
+              <option value="2">Tidak Aktif</option>
             </select>
           </div>
         </div>
