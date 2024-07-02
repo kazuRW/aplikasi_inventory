@@ -11,7 +11,7 @@
   <!-- Content Header (Page header) -->
   <section class="content-header">
     <h1>
-      Add New Products
+      Tambah Produk Baru
       
     </h1>
     <ol class="breadcrumb">
@@ -51,7 +51,7 @@
 
                 <div class="form-group">
 
-                  <label for="product_image">Image</label>
+                  <label for="product_image">Gambar</label>
                   <div class="kv-avatar">
                       <div class="file-loading">
                           <input id="product_image" name="product_image" type="file">
@@ -60,7 +60,7 @@
                 </div>
 
                 <div class="form-group">
-                  <label for="product_name">Product name</label>
+                  <label for="product_name">Nama Produk</label>
                   <input type="text" class="form-control" id="product_name" name="product_name" placeholder="Enter product name" autocomplete="off"/>
                 </div>
 
@@ -70,19 +70,18 @@
                 <!-- </div> -->
 
                 <div class="form-group">
-                  <label for="price">Price</label>
+                  <label for="price">Harga</label>
                   <input type="text" class="form-control" id="price" name="price" placeholder="Enter price" autocomplete="off" />
                 </div>
 
                 <div class="form-group">
-                  <label for="qty">Qty</label>
+                  <label for="qty">Kuantitas</label>
                   <input type="text" class="form-control" id="qty" name="qty" placeholder="Enter Qty" autocomplete="off" />
                 </div>
 
                 <div class="form-group">
-                  <label for="description">Description</label>
-                  <textarea type="text" class="form-control" id="description" name="description" placeholder="Enter 
-                  Description" autocomplete="off">
+                  <label for="description">Deskripsi</label>
+                  <textarea type="text" class="form-control" id="description" name="description" placeholder="Buat Deskrispi" autocomplete="off">
                   </textarea>
                 </div>
 
