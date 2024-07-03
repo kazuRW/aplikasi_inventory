@@ -1145,9 +1145,9 @@ nav.main-menu {
 	vertical-align: middle;
 }
 
-.main-menu ul>li:nth-child (6) {
+.main-menu ul > li:nth-child(6) {
 	padding-right: 0px;
-}
+  }
 
 .nav>li {
 	position: inherit;
@@ -1164,7 +1164,10 @@ nav.main-menu {
 	padding: 15px 0px;
 }
 
-.sub-full {}
+.sub-full {
+	background-color: yellow; /* Example style */
+	padding: 10px; /* Example style */
+  }
 
 .simple-down {
 	padding: 15px;
@@ -1715,7 +1718,7 @@ font-size: 18px;
 	position: relative;
 }
 .banner-main .carousel-caption h1 {
-	color: #020000;
+	color: #494343;
 	font-size: 85px;
    line-height: 90px;
 	text-transform: uppercase;
@@ -1741,7 +1744,7 @@ margin-top: 20px;
 .banner-main .carousel-caption a:hover {
 	background: #000;
 }
-.yellow_bold {color: #ffc221;}
+.yellow_bold {color: #7e6216}
 
 /** whyschose section **/
 

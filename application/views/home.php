@@ -8,20 +8,20 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>InventoryShop</title>
+      <title>Aplikasi Inventori</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
       <!-- bootstrap css -->
-      <link rel="stylesheet" href="./lighten/css/bootstrap.min.css">
+      <link rel="stylesheet" href="<?php echo base_url('./lighten/css/bootstrap.min.css'); ?>">
       <!-- style css -->
-      <link rel="stylesheet" href="./lighten/css/style.css">
+      <link rel="stylesheet" href="<?php echo base_url('./lighten/css/style.css'); ?>">
       <!-- Responsive-->
-      <link rel="stylesheet" href="./lighten/css/responsive.css">
+      <link rel="stylesheet" href="<?php echo base_url('./lighten/css/responsive.css'); ?>">
       <!-- fevicon -->
-      <link rel="icon" href="./lighten/images/search_icon.png" type="./lighten/image/gif" />
+      <link rel="icon" href="<?php echo base_url('assets/images/logo.png'); ?>" type="image/png">
       <!-- Scrollbar Custom CSS -->
-      <link rel="stylesheet" href="./lighten/css/jquery.mCustomScrollbar.min.css">
+      <link rel="stylesheet" href="<?php echo base_url('./lighten/css/jquery.mCustomScrollbar.min.css'); ?>">
       <!-- Tweaks for older IEs-->
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
@@ -40,16 +40,16 @@
       <header>
          <!-- header inner -->
          <div class="header">
-            <div class="head_top">
+            <div class="head_top bg-primary">
                <div class="container">
                   <div class="row">
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                        <div class="top-box">
                         <ul class="sociel_link">
-                         <li> <a href="#facebook"><i class="fa fa-facebook-f"></i></a></li>
-                         <li> <a href="#witter"><i class="fa fa-twitter"></i></a></li>
-                         <li> <a href="#instagram"><i class="fa fa-instagram"></i></a></li>
-                         <li> <a href="#linkedin"><i class="fa fa-linkedin"></i></a></li>
+                         <li> <a href="https://www.facebook.com/"><i class="fa fa-facebook-f"></i></a></li>
+                         <li> <a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
+                         <li> <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+                         <li> <a href="https://id.linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
                      </ul>
                     </div>
                   </div>
@@ -87,7 +87,7 @@
                   </div>
                </div>
                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2">
-                  <li><a class="buy" href="auth/login">Masuk</a></li>
+                  <li><a class="buy bg-success" href="auth/login">Masuk</a></li>
                </div>
             </div>
          </div>
@@ -102,7 +102,7 @@
                   <img class="first-slide" src="./lighten/images/banner2.jpg" alt="First slide">
                   <div class="container">
                      <div class="carousel-caption relative">
-                        <h1>Our <br> <strong class="black_bold">Inventori </strong><br>
+                        <h1>Aplikasi <br> <strong class="black_bold">Inventori </strong><br>
                            <strong class="yellow_bold">Produk </strong></h1>
                            <p>ketahui detail produk dari inventori kami </p>
                         <a  href="#">lihat selengkapnya..</a>
@@ -114,7 +114,7 @@
                   <div class="container">
                      <div class="carousel-caption relative">
                         <h1>Our <br> <strong class="black_bold">Inventori </strong><br>
-                           <strong class="yellow_bold">Produk </strong></h1>
+                           <strong class="red_bold">Produk </strong></h1>
                            <p>ketahui detail produk dari inventori kami </p>
                         <a  href="#">lihat selengkapnya..</a>
                      </div>
@@ -497,14 +497,14 @@
       </footr>
       <!-- end footer -->
       <!-- Javascript files--> 
-      <script src="./lighten/js/jquery.min.js"></script> 
-      <script src="./lighten/js/popper.min.js"></script> 
-      <script src="./lighten/js/bootstrap.bundle.min.js"></script> 
-      <script src="./lighten/js/jquery-3.0.0.min.js"></script> 
-      <script src="./lighten/js/plugin.js"></script> 
+      <script src="<?php echo base_url('./lighten/js/jquery.min.js'); ?>"></script> 
+      <script src="<?php echo base_url('./lighten/js/popper.min.js'); ?>"></script> 
+      <script src="<?php echo base_url('./lighten/js/bootstrap.bundle.min.js'); ?>"></script> 
+      <script src="<?php echo base_url('./lighten/js/jquery-3.0.0.min.js'); ?>"></script> 
+      <script src="<?php echo base_url('./lighten/js/plugin.js'); ?>"></script>
       <!-- sidebar --> 
-      <script src="./lighten/js/jquery.mCustomScrollbar.concat.min.js"></script> 
-      <script src="./lighten/js/custom.js"></script>
+      <script src="<?php echo base_url('./lighten/js/jquery.mCustomScrollbar.concat.min.js'); ?>"></script> 
+      <script src="<?php echo base_url('./lighten/js/custom.js'); ?>"></script>
       <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
       <script>
          $(document).ready(function(){
