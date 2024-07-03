@@ -114,9 +114,11 @@ a.meanmenu-reveal {
 }
 
 .mean-container .mean-nav ul li a:hover {
-     ` background: #252525;
-     background: rgba(255, 255, 255, 0.1);
-}
+     background-color: #252525;
+     background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAEElEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="); /* Replace with transparent image URL if needed */
+     background-repeat: no-repeat;  /* Adjust if needed (e.g., for a pattern) */
+     opacity: 0.1;  /* Alternative to rgba for transparency */
+   }
 
 .mean-container .mean-nav ul li a.mean-expand {
      background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;

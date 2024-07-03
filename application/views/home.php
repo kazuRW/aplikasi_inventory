@@ -103,7 +103,7 @@
                   <div class="container">
                      <div class="carousel-caption relative">
                         <h1>Aplikasi <br> <strong class="black_bold">Inventori </strong><br>
-                           <strong class="yellow_bold">Produk </strong></h1>
+                           <strong class="red_bold">Produk </strong></h1>
                            <p>ketahui detail produk dari inventori kami </p>
                         <a  href="#">lihat selengkapnya..</a>
                      </div>
@@ -114,7 +114,7 @@
                   <div class="container">
                      <div class="carousel-caption relative">
                         <h1>Our <br> <strong class="black_bold">Inventori </strong><br>
-                           <strong class="red_bold">Produk </strong></h1>
+                           <strong class="green_bold">Produk </strong></h1>
                            <p>ketahui detail produk dari inventori kami </p>
                         <a  href="#">lihat selengkapnya..</a>
                      </div>
@@ -131,7 +131,6 @@
                      </div>
                   </div>
                </div>
-
             </div>
             <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
             <i class='fa fa-angle-right'></i>
@@ -153,7 +152,7 @@
             <div class="row">
                <div class="col-md-7 offset-md-3">
                   <div class="title">
-                     <h2>Kenapa <strong class="black">Memilih Kami?</strong></h2>
+                     <h2>Kenapa <strong class="green_bold">Memilih</strong><strong class="red_bold"> Kami?</strong></h2>
                      <span>Cepat pelayanan dan penyimpanan!</span>
                   </div>
                </div>

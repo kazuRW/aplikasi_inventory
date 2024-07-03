@@ -472,7 +472,7 @@ nav.main-menu {
 }
 
 .menu-area-main li.active a {
-	color: #ffc221;
+	color: #b81a0f;
 }
 
 .right_cart_section {
@@ -1741,10 +1741,13 @@ text-align: center;
 margin-top: 20px;
 
 }
-.banner-main .carousel-caption a:hover {
-	background: #000;
+.banner-main .carousel-caption a {
+    background: #000; /* Assuming you want a black background */
 }
-.yellow_bold {color: #7e6216}
+
+.green_bold {color: rgb(24, 163, 105);}
+.yellow_bold {color: rgb(255, 255, 1);}
+.red_bold {color: rgb(230, 5, 5)}
 
 /** whyschose section **/
 
