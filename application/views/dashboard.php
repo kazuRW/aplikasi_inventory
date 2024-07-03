@@ -7,8 +7,7 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Dashboard
-    
+        Halaman Utama Dashboard
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -24,7 +23,7 @@
         <div class="row">
           <div class="col-lg-3 col-xs-6">
             <!-- small box -->
-            <div class="small-box bg-purple">
+            <div class="small-box bg-gray">
               <div class="inner">
                 <h3><?php echo $total_brands ?></h3>
 

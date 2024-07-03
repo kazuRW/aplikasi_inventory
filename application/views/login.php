@@ -13,7 +13,7 @@
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   
-  <link rel="icon" href="./lighten/images/search_icon.png" type="./lighten/image/gif" />
+  <link rel="icon" href="<?php echo base_url('assets/images/logo.png'); ?>" type="image/png" />
   <!-- Theme style -->
   <link rel="stylesheet" href="<?php echo base_url('assets/dist/css/AdminLTE.min.css')?>">
   <!-- iCheck -->
@@ -21,7 +21,7 @@
 
  
 </head>
-<body class="hold-transition login-page">
+<body class="hold-transition login-page bg-yellow">
 <div class="login-box">
   <div class="login-logo">
     <a href=""><b>Sistem Informasi Inventory</b></a>

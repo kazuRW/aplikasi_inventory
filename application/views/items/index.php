@@ -78,7 +78,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">Add Item</h4>
+        <h4 class="modal-title">Tambah Barang</h4>
       </div>
 
       <form role="form" action="<?php echo base_url('Controller_Items/create') ?>" method="post" id="createBrandForm">
@@ -86,7 +86,7 @@
         <div class="modal-body">
 
           <div class="form-group">
-            <label for="brand_name">Item Name</label>
+            <label for="brand_name">Nama Barang</label>
             <input type="text" class="form-control" id="brand_name" name="brand_name" placeholder="Enter item name" autocomplete="off">
           </div>
           <div class="form-group">
@@ -99,8 +99,8 @@
         </div>
 
         <div class="modal-footer">
-          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-          <button type="submit" class="btn btn-primary">Save changes</button>
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Tutup</button>
+          <button type="submit" class="btn btn-primary">Simpan Perubahan</button>
         </div>
 
       </form>
@@ -118,7 +118,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">Edit Item</h4>
+        <h4 class="modal-title">Ubah Barang</h4>
       </div>
 
       <form role="form" action="<?php echo base_url('Controller_Items/update') ?>" method="post" id="updateBrandForm">
@@ -127,7 +127,7 @@
           <div id="messages"></div>
 
           <div class="form-group">
-            <label for="edit_brand_name">Item Name</label>
+            <label for="edit_brand_name">Nama Barang</label>
             <input type="text" class="form-control" id="edit_brand_name" name="edit_brand_name" placeholder="Enter item name" autocomplete="off">
           </div>
           <div class="form-group">
@@ -140,8 +140,8 @@
         </div>
 
         <div class="modal-footer">
-          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-          <button type="submit" class="btn btn-primary">Save changes</button>
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Tutup</button>
+          <button type="submit" class="btn btn-primary">Simpan Perubahan</button>
         </div>
 
       </form>
@@ -160,16 +160,16 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">Remove Item</h4>
+        <h4 class="modal-title">Hapus Barang</h4>
       </div>
 
       <form role="form" action="<?php echo base_url('Controller_Items/remove') ?>" method="post" id="removeBrandForm">
         <div class="modal-body">
-          <p>Do you really want to Delete?</p>
+          <p>Apakah yakin ingin menghapus barang?</p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          <button type="submit" class="btn btn-danger">Delete</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
+          <button type="submit" class="btn btn-danger">Hapus</button>
         </div>
       </form>
 
