@@ -24,7 +24,10 @@
 <body class="hold-transition login-page bg-yellow">
 <div class="login-box">
   <div class="login-logo">
-    <a href=""><b>Sistem Informasi Inventory</b></a>
+    <span class="logo-lg">
+      <img src="<?php echo base_url('assets/images/logo.png'); ?>" alt="Logo" class="main-header" height="200px" width="200px">
+    </span><br>
+    <a href=""><b>Aplikasi Inventori</b></a>
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">

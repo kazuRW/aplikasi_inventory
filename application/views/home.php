@@ -54,8 +54,8 @@
                     </div>
                   </div>
                   <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                       <div class="top-box">
-                        <p>Dapatkan tips & insight kembangkan bisnis bersama kami </p>
+                       <div class="top-box"><br>
+                        <strong class="text-white">Dapatkan tips & insight kembangkan bisnis bersama kami </strong>
                     </div>
                   </div>
                </div>
@@ -206,7 +206,7 @@
             <div class="row">
                <div class="col-md-8 offset-md-2">
                   <div class="title">
-                     <h2>Pelayanan <strong class="black">Proses</strong></h2>
+                     <h2>Pelayanan <strong class="red_bold">Proses</strong></h2>
                      <span>Mudah untuk mengelola inventori secara online</span>
                   </div>
                </div>
