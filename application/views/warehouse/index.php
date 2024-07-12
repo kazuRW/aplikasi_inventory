@@ -79,7 +79,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">Add Warehouse</h4>
+        <h4 class="modal-title">Tambah Gudang</h4>
       </div>
 
       <form role="form" action="<?php echo base_url('Controller_Warehouse/create') ?>" method="post" id="createForm">
@@ -87,21 +87,21 @@
         <div class="modal-body">
 
           <div class="form-group">
-            <label for="brand_name">Warehouse Name</label>
+            <label for="brand_name">Nama Gudang</label>
             <input type="text" class="form-control" id="store_name" name="store_name" placeholder="Enter warehouse name" autocomplete="off">
           </div>
           <div class="form-group">
             <label for="active">Status</label>
             <select class="form-control" id="active" name="active">
-              <option value="1">Active</option>
-              <option value="2">Inactive</option>
+              <option value="1">Aktif</option>
+              <option value="2">Tidak Aktif</option>
             </select>
           </div>
         </div>
 
         <div class="modal-footer">
-          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-          <button type="submit" class="btn btn-primary">Save changes</button>
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Tutup</button>
+          <button type="submit" class="btn btn-primary">Simpan Perubahan</button>
         </div>
 
       </form>
@@ -119,7 +119,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">Edit Warehouse</h4>
+        <h4 class="modal-title">Ubah Gudang</h4>
       </div>
 
       <form role="form" action="<?php echo base_url('Controller_Warehouse/update') ?>" method="post" id="updateForm">
@@ -128,21 +128,21 @@
           <div id="messages"></div>
 
           <div class="form-group">
-            <label for="edit_brand_name">Warehouse Name</label>
+            <label for="edit_brand_name">Nama Gudang</label>
             <input type="text" class="form-control" id="edit_store_name" name="edit_store_name" placeholder="Enter warehouse name" autocomplete="off">
           </div>
           <div class="form-group">
             <label for="edit_active">Status</label>
             <select class="form-control" id="edit_active" name="edit_active">
-              <option value="1">Active</option>
-              <option value="2">Inactive</option>
+              <option value="1">Aktif</option>
+              <option value="2">Tidak AKtif</option>
             </select>
           </div>
         </div>
 
         <div class="modal-footer">
-          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-          <button type="submit" class="btn btn-primary">Save changes</button>
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Tutup</button>
+          <button type="submit" class="btn btn-primary">Simpan Perubahan</button>
         </div>
 
       </form>
@@ -160,16 +160,16 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">Remove Warehouse</h4>
+        <h4 class="modal-title">Hapus Gudang</h4>
       </div>
 
       <form role="form" action="<?php echo base_url('Controller_Warehouse/remove') ?>" method="post" id="removeForm">
         <div class="modal-body">
-          <p>Do you really want to remove?</p>
+          <p>Apakah yakin untuk menghapus gudang?</p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          <button type="submit" class="btn btn-danger">Delete</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
+          <button type="submit" class="btn btn-danger">Hapus</button>
         </div>
       </form>
 
