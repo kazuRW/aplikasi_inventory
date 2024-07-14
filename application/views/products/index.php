@@ -8,12 +8,12 @@
   <!-- Content Header (Page header) -->
   <section class="content-header">
     <h1>
-      Manage Products
+      Kelola Produk
 
     </h1>
     <ol class="breadcrumb">
-      <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-      <li class="active">Products</li>
+      <li><a href="#"><i class="fa fa-dashboard"></i> Beranda</a></li>
+      <li class="active">Produk</li>
     </ol>
   </section>
 
@@ -38,7 +38,7 @@
         <?php endif; ?>
 
         <?php if(in_array('createProduct', $user_permission)): ?>
-          <a href="<?php echo base_url('Controller_Products/create') ?>" class="btn btn-primary">Add Product</a>
+          <a href="<?php echo base_url('Controller_Products/create') ?>" class="btn btn-primary">Tambah Produk</a>
           <br /> <br />
         <?php endif; ?>
 
@@ -49,15 +49,15 @@
             <table id="manageTable" class="table table-bordered table-hover table-striped">
               <thead >
               <tr>
-                <th>Image</th>
+                <th>Gambar</th>
                 
-                <th>Product</th>
-                <th>Price</th>
-                <th>Qty</th>
-                <th>Warehouse</th>
-                <th>Availability</th>
+                <th>Produk</th>
+                <th>Harga</th>
+                <th>Kuantitas</th>
+                <th>Gudang</th>
+                <th>Status</th>
                 <?php if(in_array('updateProduct', $user_permission) || in_array('deleteProduct', $user_permission)): ?>
-                  <th>Action</th>
+                  <th>Aksi</th>
                 <?php endif; ?>
               </tr>
               </thead>
@@ -85,16 +85,16 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">Remove Product</h4>
+        <h4 class="modal-title">Hapus Produk</h4>
       </div>
 
       <form role="form" action="<?php echo base_url('Controller_Products/remove') ?>" method="post" id="removeForm">
         <div class="modal-body">
-          <p>Do you really want to remove?</p>
+          <p>Yakin ingin menghapus produk ?</p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          <button type="submit" class="btn btn-danger">Delete</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
+          <button type="submit" class="btn btn-danger">Hapus</button>
         </div>
       </form>
 

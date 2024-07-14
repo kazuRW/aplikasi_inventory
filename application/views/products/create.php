@@ -15,8 +15,8 @@
       
     </h1>
     <ol class="breadcrumb">
-      <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-      <li class="active">Products</li>
+      <li><a href="#"><i class="fa fa-dashboard"></i> Beranda</a></li>
+      <li class="active">Produk</li>
     </ol>
   </section>
 
@@ -61,7 +61,7 @@
 
                 <div class="form-group">
                   <label for="product_name">Nama Produk</label>
-                  <input type="text" class="form-control" id="product_name" name="product_name" placeholder="Enter product name" autocomplete="off"/>
+                  <input type="text" class="form-control" id="product_name" name="product_name" placeholder="Ketik nama produk" autocomplete="off"/>
                 </div>
 
                 <!-- <div class="form-group"> -->
@@ -71,12 +71,12 @@
 
                 <div class="form-group">
                   <label for="price">Harga</label>
-                  <input type="text" class="form-control" id="price" name="price" placeholder="Enter price" autocomplete="off" />
+                  <input type="text" class="form-control" id="price" name="price" placeholder="masukan harga" autocomplete="off" />
                 </div>
 
                 <div class="form-group">
                   <label for="qty">Kuantitas</label>
-                  <input type="text" class="form-control" id="qty" name="qty" placeholder="Enter Qty" autocomplete="off" />
+                  <input type="text" class="form-control" id="qty" name="qty" placeholder="masukan kuantitas" autocomplete="off" />
                 </div>
 
                 <div class="form-group">
